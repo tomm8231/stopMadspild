@@ -1,0 +1,8 @@
+nav ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    list-style: none;
+    background-color: mediumaquamarine;
+    height: 50px;
+    align-items: center;
+}
