@@ -10,4 +10,26 @@ public class HomeController {
   public String index() {
     return "index";
   }
-}
+
+  @GetMapping("/kontakt")
+  public String kontakt() {
+    return "kontakt";
+  }
+
+  @GetMapping("/om-os")
+  public String omOs() {
+    return "om-os";
+  }
+
+  @GetMapping("/privat")
+  public String privat() {
+    return "privat";
+  }
+
+  @GetMapping("/virksomhed")
+  public String virksomhed() {
+    return "virksomhed";
+  }
+
+  }
+
