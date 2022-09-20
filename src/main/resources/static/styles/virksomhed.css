@@ -1,0 +1,24 @@
+.virk-first-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.virk-head {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.virk-texthead {
+    width: 40%;
+    margin: auto;
+    font-size: 24px;
+    padding-bottom: 1em;
+}
+
+.img-virk-spild {
+    width: 40%;
+    margin: auto;
+}

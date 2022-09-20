@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/virksomhed.css">
+
     <title>Title</title>
 </head>
 <body>
-<div th:insert="fragments/menu"> </div>
-<h1>Virksomhed</h1>
+<div th:insert="fragments/menu"></div>
+<section class="virk-first-sec">
+    <h1 class="virk-head">Vi vil madspil til livs</h1>
+    <div class="virk-texthead">
+        Hver dag smides næsten 2.000 tons mad ud i Danmark. Madspild kan ikke, hvor end,
+        vi gerne ville, helt undgås. Fødevarer der skulle have endt deres dage på en tallerken, når ofte ikke så langt.
+        I hele værdikæden for fødevarer - lige fra primærproduktion til detail- og serviceled - går der nemlig alt for
+        meget mad til spilde, og det har store økonomiske og miljømæssige omkostninger.
+        Men flere virksomheder har taget fat på udfordringen på mange niveauer, og målet er
+        at hvert år, bliver skåret mange tons af det samlede spild.
+    </div>
+    <img class="img-virk-spild" src="/images/madspil-virksomhed.jpg" >
+</section>
+
+
 </body>
 </html>
