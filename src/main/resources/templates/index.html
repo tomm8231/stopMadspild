@@ -9,11 +9,16 @@
 <header>
     <nav>
         <ul class="menu">
-            <li><img src="#">Logo</img></li>
-            <li><a href="../templates/privat.html" th:href="@{privat.html}"></a> Link 2</li>
-            <li>Link 3</li>
-            <li>Link 4</li>
-            <li>Link 5</li>
+            <div>
+                <li><img id="logo" src="../static/images/danmarkmodmadspild.jpg"></li>
+            </div>
+            <div>
+                <li><a href="../templates/privat.html" th:href="@{privat.html}">For private</a></li>
+                <li><a href="../templates/virksomhed.html" th:href="@{virksomhed.html}">For virksomheder</a></li>
+                <li><a href="../templates/om-os.html" th:href="@{om-os.html}">Om os</a></li>
+                <li><a href="../templates/kontakt.html" th:href="@{kontakt.html}">Kontakt</a></li>
+            </div>
+
         </ul>
     </nav>
 </header>

@@ -1,8 +1,17 @@
-nav ul{
+nav ul div{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     list-style: none;
     background-color: mediumaquamarine;
     height: 50px;
     align-items: center;
+}
+
+#logo {
+    left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
