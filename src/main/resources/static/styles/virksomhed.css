@@ -21,14 +21,14 @@
 }
 
 .virk-texthead {
-    width: 40%;
+    width: 50%;
     margin: auto;
     font-size: 24px;
     padding-bottom: 1em;
 }
 
 .img-virk-spild {
-    width: 40%;
+    width: 50%;
     margin: auto;
 }
 
@@ -48,5 +48,9 @@
     padding-bottom: 1rem;
     width: 90%;
     margin:auto;
+}
+
+.virk-pic {
+    max-height: 250px;
 }
 
