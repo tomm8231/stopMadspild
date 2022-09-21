@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgray;
+    background-image: linear-gradient(to right, lightgray, gray);
 
 }
 
@@ -65,7 +65,7 @@ a {
     display: flex;
     flex-direction: column;
     list-style-type: circle;
-    gap: 1em;
+    gap: 2em;
     justify-content: space-between;
 
 }
@@ -106,4 +106,10 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+}
+
+.boble img {
+    background-color: lightgray;
+    width: 300px;
+    height: auto;
 }
