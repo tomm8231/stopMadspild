@@ -1,0 +1,56 @@
+.virk-first-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.virk-head {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 250px;
+    border-style: solid;
+    border-color: green;
+}
+
+.virk-texthead {
+    width: 50%;
+    margin: auto;
+    font-size: 24px;
+    padding-bottom: 1em;
+}
+
+.img-virk-spild {
+    width: 50%;
+    margin: auto;
+}
+
+.virk-muligheder {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+    justify-content: center;
+}
+
+.small-headline {
+    font-size: 24px;
+    padding: 5px;
+}
+
+.small-text {
+    padding-bottom: 1rem;
+    width: 90%;
+    margin:auto;
+}
+
+.virk-pic {
+    max-height: 200px;
+}
+
