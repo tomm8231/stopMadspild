@@ -7,6 +7,10 @@ nav ul{
     align-items: center;
 }
 
+nav ul li:hover {
+    text-decoration: underline;
+}
+
 #logo {
     height: 50px;
 }
@@ -35,3 +39,5 @@ a {
     height: 50%;
     width: 100%;
 }
+
+

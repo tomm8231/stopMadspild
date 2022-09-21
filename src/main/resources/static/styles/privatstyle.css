@@ -1,0 +1,109 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+
+}
+
+#privat{
+    min-height: 50vh;
+    margin: 1em;
+    padding: 1em;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    list-style: none;
+    background-color: mediumaquamarine;
+    height: 50px;
+    align-items: center;
+}
+
+#logo {
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#privat {
+    background-size: cover;
+    justify-content: space-between;
+
+}
+
+#overskrift-privat {
+    font-size: large;
+}
+
+#stor-intro {
+    font-size: x-large;
+}
+
+
+.sideBySide {
+    display: flex;
+    flex-grow: 1;
+    gap: 1em;
+    font-size: medium;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: space-between;
+
+}
+
+.columns ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: circle;
+    gap: 1em;
+    justify-content: space-between;
+
+}
+
+.fridge img {
+    display: flex;
+    flex-shrink: 4;
+    align-content: flex-end;
+    height: 300px;
+    width: 200px;
+
+}
+
+.blok  {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    padding: 1em;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    margin: 1em;
+    padding: 1em;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}

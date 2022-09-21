@@ -2,13 +2,80 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <title>Title</title>
+    <link rel="stylesheet" href="../styles/privatstyle.css">
+    <title>For private - hvordan stoppe madspild derhjemme</title>
 </head>
 <body>
 <div th:insert="fragments/menu"> </div>
 
-<h1>TEST BRANCHES</h1>
+<section id="privat">
+    <p id="stor-intro">36% af Danmarks madspild foregår rundt omkring i de danske hjem - det er på tide at spise op vores mad!</p>
+
+    <div class="sideBySide">
+        <div class="columns">
+
+            <div>
+                Vidste du at det samlede madspild fra de danske husholdningerne er 261.000-ton pr. år?
+            </div>
+
+            <h1>Hvad kan DU gøre?</h1>
+            <ul id="tips">
+                <li><strong>I supermarkedet:</strong> Indkøb kun den mængde mad, du har brug for.</li>
+                <li><strong>I køkkenet:</strong> Tilbered kun den mængde mad, du/I kan spise.</li>
+                <li><strong>Efter et måltid:</strong> Hvis du alligevel lavede for meget mad, skal maden i fryseren til en anden dag eller i køleskabet og spises dagen efter.</li>
+            </ul>
+        </div>
+
+        <div class="fridge">
+            <img src="images/køleskab.jpg" alt="Kvinde ved køleskab, smider ud pålæg" />
+        </div>
+    </div>
+</section>
+
+<section class="blok">
+    <div class="gallery">
+        <a target="_blank" href="https://www.stopspildafmad.dk/hvadkandugoere.html">
+        <img src="images/stopspildafmad.jpg" alt="Stop spild af mad logo" width="600" height="400">
+         </a>
+        <div class="desc">Stop spild ad mad!</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="http://www.sammenmodmadspild.dk/">
+         <img src="images/sammenmodmadspild.jpg" alt="Sammen mod madspild logo" width="600" height="400">
+         </a>
+    <div class="desc">Sammen mod madspild</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="https://www.dr.dk/drtv/serie/madchokket_199245">
+        <img src="images/madchokket.jpg" alt="Madchokket DR" width="600" height="400">
+        </a>
+        <div class="desc">Madchokket på DR</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="https://www.foedevarestyrelsen.dk/kampagner/TjekDatoen">
+            <img src="images/tjek-datoen.jpg" alt="Tjek datoen - fødevarestyrelsen" width="600" height="400">
+        </a>
+        <div class="desc">Fødevarestyrelsen - Tjek datoen</div>
+    </div>
+    </section>
+
+
+<section class="blok">
+<div>
+    Kilder:
+    <br>
+    Miljøministeriet, Regeringens Strategi for affaldsforebyggelse ”Danmark uden affald II” - tal fra 2015
+    <br>
+    <a href="https://www.stopspildafmad.dk/hvadkandugoere.html">Stop spild af mad</a>
+</div>
+</section>
+
+
+
+
 
 </body>
 </html>
