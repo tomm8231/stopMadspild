@@ -57,7 +57,7 @@ a {
     display: flex;
     flex-direction: column;
     flex-grow: 2;
-    justify-content: space-between;
+    justify-content: flex-start;
 
 }
 
@@ -66,16 +66,17 @@ a {
     flex-direction: column;
     list-style-type: circle;
     gap: 1em;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
 .fridge img {
     display: flex;
-    flex-shrink: 4;
-    align-content: flex-end;
-    height: 300px;
-    width: 200px;
+    /*flex-shrink: 4;*/
+    /*align-content: flex-end;*/
+    max-height: 300px;
+   /* height: 300px;
+    width: 200px;*/
 
 }
 
