@@ -41,6 +41,14 @@ a {
 
 }
 
+.indtryk-inner{
+    padding: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+    margin-right: 10%;
+    background-color: #F3F2E7;
+}
+
 h2{
     color: black;
 }
@@ -88,4 +96,18 @@ footer{
     flex-grow: 1;
     height: 50%;
     width: 100%;
+}
+
+@media all and (max-width:1040px) {
+
+    .forside-indhold{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
 }
