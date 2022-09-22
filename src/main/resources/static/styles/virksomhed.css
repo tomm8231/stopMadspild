@@ -37,6 +37,7 @@
     grid-template-columns: auto auto auto;
     column-gap: 40px;
     justify-content: center;
+    padding-bottom: 2em;
 }
 
 .small-headline {
