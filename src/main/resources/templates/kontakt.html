@@ -1,10 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+    <link rel="stylesheet" href="../styles/stylesContact.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Kontakt</title>
 </head>
 <body>
-
+<div th:insert="fragments/menu"></div>
+<section>
+    <div class="box-top">
+        <div class="top-box-left">
+            <h1 style="font-size: 4rem; font-weight: bolder">KONTAKT</h1>
+        </div>
+        <div class="social-media-box">
+            <div>
+                <a href="#"><img src="images/icons/fb-icon.png"/></a>
+            </div>
+            <div>
+                <a href="#"><img src="images/icons/in-icon.png"/></a>
+            </div>
+            <div>
+                <a href="#"><img src="images/icons/inst-icon.png"/></a>
+            </div>
+            <div>
+                <a href="#"><img src="images/icons/tw-icon.png"/></a>
+            </div>
+        </div>
+    </div>
+    <div class="box-bottom">
+        <div class="box-bottom-left">
+            <form>
+            <input type="text" placeholder="Navn" autofocus>
+                <br/><br/>
+            <input type="email" placeholder="E-mail">
+        </div>
+        <div class="box-bottom-right">
+            <textarea type="text" placeholder="Besked" style="width:350px;height:200px;"></textarea>
+            <br/><br/>
+            <button type="submit">Send</button>
+            <button type="reset">Slet</button>
+            </form>
+        </div>
+    </div>
+</section>
+<div th:insert="fragments/footer"> </div>
 </body>
 </html>
