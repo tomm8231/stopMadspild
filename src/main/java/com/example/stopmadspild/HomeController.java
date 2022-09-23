@@ -18,7 +18,7 @@ public class HomeController {
 
   @GetMapping("/om-os")
   public String omOs() {
-    return "om-os";
+    return "om-os2";
   }
 
   @GetMapping("/privat")

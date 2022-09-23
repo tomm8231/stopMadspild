@@ -8,13 +8,16 @@
 </head>
 <body>
 <div th:insert="fragments/menu"> </div>
-<p>Om os</p>
+
+<h1>Mød teamet bag Stop Madspild</h1>
 <section>
     <div>
-        Box1
+       <img class="gallery-team" src="images/tommy.jpg" alt="Tommy Helle Jensen" width="180" height="200">
+       <div class="navn-teammedlem">Tommy Helle Jensen</div>
     </div>
     <div>
-        Box2
+        <img class="gallery-team" src="images/marcus.jpg" alt="Marcus Holje" width="180" height="200">
+        <div class="navn-teammedlem">Marcus Sebastian Holje</div>
     </div>
     <div>
         Box3
@@ -23,5 +26,7 @@
         Box4
     </div>
 </section>
+
+<div th:insert="fragments/footer"> </div>
 </body>
 </html>

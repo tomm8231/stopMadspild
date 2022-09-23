@@ -1,4 +1,4 @@
-section {
+/*section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1em;
@@ -7,7 +7,7 @@ section {
 }
 
 section > div {
-    /*border: black 1px solid;*/
+    !*border: black 1px solid;*!
     padding: 1em;
     background-color: mediumaquamarine;
 }
@@ -27,7 +27,7 @@ section > div {
 
 
 .box-top > div {
-    /*border: black 1px solid;*/
+    !*border: black 1px solid;*!
     padding: 1em;
 }
 
@@ -40,7 +40,7 @@ section > div {
 }
 
 .box-bottom > div {
-    /*border: black 1px solid;*/
+    !*border: black 1px solid;*!
     padding: 1em;
 }
 
@@ -86,10 +86,75 @@ button {
     border: black 3px solid;
     color: #6e6f70;
     margin-right: 50px;
-}
+}*/
 
 h1 {
     display: grid;
     justify-content: center;
     font-family: Arial;
+    margin-bottom: 3em;
+}
+/*
+.gallery-team {
+    border-radius: 50%;
+}
+
+ */
+
+.navn-teammedlem {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.container-gallery {
+    display: flex;
+    align-content: space-around;
+    gap: 1em;
+    margin-bottom: 2em;
+ }
+
+.container-image{
+    border-radius: 50%;
+}
+
+.container-name {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.container-text {
+    display: inline;
+    /*padding: 5px
+
+     */
+}
+
+
+.container-image {
+    border-radius: 50%;
+    margin: 1em;
+    padding: 1em;
+
+}
+
+.container-box {
+    display: flex;
+    align-content: space-around;
+    max-width: 400px;
+}
+
+.navn-teammedlem {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+@media all and (max-width:800px){
+
+    .container-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        gap: 1em;
+    }
+
 }

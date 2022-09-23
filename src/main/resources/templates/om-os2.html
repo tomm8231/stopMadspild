@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../styles/stylesAbout.css">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <title>Om os</title>
+  <link rel="stylesheet" href="../static/styles/stylesAbout.css">
+</head>
+<body>
+<div th:insert="fragments/menu"> </div>
+
+<h1>Mød teamet bag Stop Madspild</h1>
+
+<section class ="container-gallery">
+  <div class="container-box">
+    <div class="image-box">
+      <img class="container-image" src="images/tommy.jpg" alt="Tommy Helle Jensen" width="180" height="200">
+      <div class="container-name">Tommy Helle Jensen</div>
+      <div class="container-text">Teamets klatrer. Tommy har erfaring med html og css fra Island og har stærke sprogkundskaber.</div>
+    </div>
+  </div>
+
+  <div class="container-box">
+    <div class="image-box">
+      <img class="container-image" src="images/marcus.jpg" alt="Daniel Ebbekær" width="180" height="200">
+      <div class="container-name">Daniel Ebbkær</div>
+      <div class="container-text">Teamets personlige træner, der dyrker både crossfit og fodbold. Har mest erfaring med front-end</div>
+    </div>
+  </div>
+
+  <div class="container-box">
+    <div class="image-box">
+      <img class="container-image" src="images/tommy.jpg" alt="Sebastian Heiberg" width="180" height="200">
+      <div class="container-name">Sebastian Heiberg</div>
+      <div class="container-text">Teamets backend-ekspert. Sebastian er for øvrigt en raket på el-cykel og elsker grøn te</div>
+    </div>
+  </div>
+
+  <div class="container-box">
+    <div class="image-box">
+      <img class="container-image" src="images/marcus.jpg" alt="Marcus Holje" width="180" height="200">
+       <div class="container-name">Marcus Holje</div>
+      <div class="container-text">Teamets nordmand. Marcus elsker ski og LEGO og har forvirret sig til Danmark på grund af en dame</div>
+    </div>
+  </div>
+
+</section>
+
+<div th:insert="fragments/footer"> </div>
+</body>
+</html>
