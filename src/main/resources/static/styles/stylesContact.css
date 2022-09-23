@@ -7,7 +7,6 @@ section {
 }
 
 section > div {
-    /*border: black 1px solid;*/
     padding: 1em;
     background-color: mediumaquamarine;
 }
@@ -27,7 +26,6 @@ section > div {
 
 
 .box-top > div {
-    /*border: black 1px solid;*/
     padding: 1em;
 }
 
@@ -40,7 +38,6 @@ section > div {
 }
 
 .box-bottom > div {
-    /*border: black 1px solid;*/
     padding: 1em;
 }
 

@@ -126,7 +126,14 @@ div.desc {
 
     div.gallery img {
         width: 80%;
+       /* justify-content: center;
 
+        */
+
+    }
+
+    .privat {
+        justify-content: center;
     }
 
 }
