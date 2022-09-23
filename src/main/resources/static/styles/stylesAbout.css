@@ -148,10 +148,11 @@ h1 {
     font-weight: bold;
 }
 
-@media all and (max-width:800px){
+@media all and (max-width:1040px){
 
     .container-gallery {
         display: flex;
+        justify-content: flex-start;
         flex-wrap: wrap;
         align-content: space-around;
         gap: 1em;
